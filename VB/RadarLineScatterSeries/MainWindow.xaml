@@ -1,0 +1,50 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+        x:Class="RadarLineScatterSeries.MainWindow"
+        Title="MainWindow" Height="551" Width="528">
+    <Grid>
+        <!--region #RadarLineScatterSeries-->
+        <dxc:ChartControl>
+            <dxc:RadarDiagram2D>
+                <dxc:RadarLineScatterSeries2D>
+                    <dxc:SeriesPoint Argument="A" Value="0"/>
+                    <dxc:SeriesPoint Argument="B" Value="1.047197551"/>
+                    <dxc:SeriesPoint Argument="C" Value="1.570796327"/>
+                    <dxc:SeriesPoint Argument="D" Value="2.094395102"/>
+                    <dxc:SeriesPoint Argument="E" Value="3.141592654"/>
+                    <dxc:SeriesPoint Argument="F" Value="4.188790205"/>
+                    <dxc:SeriesPoint Argument="G" Value="4.71238898"/>
+                    <dxc:SeriesPoint Argument="H" Value="5.235987756"/>
+                    <dxc:SeriesPoint Argument="I" Value="6.283185307"/>
+                    <dxc:SeriesPoint Argument="J" Value="7.330382858"/>
+                    <dxc:SeriesPoint Argument="K" Value="7.853981634"/>
+                    <dxc:SeriesPoint Argument="L" Value="8.37758041"/>
+                    <dxc:SeriesPoint Argument="M" Value="9.424777961"/>
+                    <dxc:SeriesPoint Argument="N" Value="10.47197551"/>
+                    <dxc:SeriesPoint Argument="O" Value="10.99557429"/>
+                    <dxc:SeriesPoint Argument="P" Value="11.51917306"/>
+                    <dxc:SeriesPoint Argument="A" Value="12.56637061"/>
+                    <dxc:SeriesPoint Argument="B" Value="13.61356817"/>
+                    <dxc:SeriesPoint Argument="C" Value="14.13716694"/>
+                    <dxc:SeriesPoint Argument="D" Value="14.66076572"/>
+                    <dxc:SeriesPoint Argument="E" Value="15.70796327"/>
+                    <dxc:SeriesPoint Argument="F" Value="16.75516082"/>
+                    <dxc:SeriesPoint Argument="G" Value="17.27875959"/>
+                    <dxc:SeriesPoint Argument="H" Value="17.80235837"/>
+                    <dxc:SeriesPoint Argument="I" Value="18.84955592"/>
+                    <dxc:SeriesPoint Argument="J" Value="19.89675347"/>
+                    <dxc:SeriesPoint Argument="K" Value="20.42035225"/>
+                    <dxc:SeriesPoint Argument="L" Value="20.94395102"/>
+                    <dxc:SeriesPoint Argument="M" Value="21.99114858"/>
+                    <dxc:SeriesPoint Argument="N" Value="23.03834613"/>
+                    <dxc:SeriesPoint Argument="O" Value="23.5619449"/>
+                    <dxc:SeriesPoint Argument="P" Value="24.08554368"/>
+                    <dxc:SeriesPoint Argument="A" Value="25.13274123"/>
+                </dxc:RadarLineScatterSeries2D>
+            </dxc:RadarDiagram2D>
+        </dxc:ChartControl>
+        <!--endregion #RadarLineScatterSeries-->
+    </Grid>
+</Window>
