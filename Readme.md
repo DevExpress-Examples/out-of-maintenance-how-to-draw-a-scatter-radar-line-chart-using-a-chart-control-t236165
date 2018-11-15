@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/RadarLineScatterSeries/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/RadarLineScatterSeries/MainWindow.xaml))**
+<!-- default file list end -->
 # How to draw a scatter radar line chart using a chart control
 
 
